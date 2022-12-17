@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <android.widget.Button
+        android:id="@+id/linearLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Linear Layout"
+        android:background="@drawable/custom_layout"
+        tools:ignore="HardcodedText" />
+
+    <android.widget.Button
+        android:id="@+id/relativeLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Relative Layout"
+        android:background="@drawable/custom_layout"
+        tools:ignore="HardcodedText" />
+
+    <android.widget.Button
+        android:id="@+id/constraintLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Constraint Layout"
+        android:background="@drawable/custom_layout"
+        tools:ignore="HardcodedText" />
+
+    <android.widget.Button
+        android:id="@+id/frameLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Frame Layout"
+        android:background="@drawable/custom_layout"
+        tools:ignore="HardcodedText" />
+
+    <android.widget.Button
+        android:id="@+id/tableLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Table Layout"
+        android:background="@drawable/custom_layout"
+        tools:ignore="HardcodedText" />
+
+    <android.widget.Button
+        android:id="@+id/gridLayout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Grid Layout"
+        android:background="@drawable/custom_layout"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

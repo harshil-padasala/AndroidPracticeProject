@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practical 1</string>
+    <string name="welcome_title">Welcome to CHARUSAT</string>
+    <string name="WELCOME_TITLE1">WELCOME TO CHARUSAT</string>
+    <string name="hyperlink_charusat"><a href="https://charusat.ac.in/">Welcome To Charusat</a></string>
+    <string name="not_loading">charusat image</string>
+</resources>

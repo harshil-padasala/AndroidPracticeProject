@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:elevation="10sp"
+        android:orientation="vertical"
+        app:cardCornerRadius="8sp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/llrow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:padding="11dp">
+
+            <ImageView
+                android:id="@+id/imgContact"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="Contact Image"
+                tools:srcCompat="@drawable/ic_launcher_background" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11.0sp"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="3sp">
+
+                <TextView
+                    android:id="@+id/contactName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/teal_200"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/contactNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

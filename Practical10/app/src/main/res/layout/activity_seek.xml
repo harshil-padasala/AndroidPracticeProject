@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#458C85"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textViewSelectSizeOfArray"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:text="Custom Seek Bar"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <android.widget.SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="50"
+            android:progress="0"
+            android:progressDrawable="@drawable/custom_seekbar"
+            android:thumb="@drawable/thumb" />
+
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,SpUsage">
+
+        </TextView>
+
+</LinearLayout>

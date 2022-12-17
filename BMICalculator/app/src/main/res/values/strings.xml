@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="edtWeight">Enter Your weight</string>
+    <string name="edtHeightF">Enter your height(feet)</string>
+    <string name="edtHeightI">Enter your height(inch)</string>
+    <string name="txtResult">Result</string>
+    <string name="calculate">Calculate</string>
+
+
+</resources>

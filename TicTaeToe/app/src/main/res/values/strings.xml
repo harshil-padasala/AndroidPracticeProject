@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TicTaeToe</string>
+    <string name="txtHeading">Tic Tae Toe</string>
+    <string name="btnRestart">Restart</string>
+    <string name="welcomeString">Welcome\nTo\nTic Tae Toe</string>
+</resources>

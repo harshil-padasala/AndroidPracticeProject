@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Please enter the details below"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextFieldName"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        tools:ignore="HardcodedText">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTitle"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextFieldContact"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter contact"
+        tools:ignore="HardcodedText">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:inputType="number"
+            android:textSize="24sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextField"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date of Birth"
+        tools:ignore="HardcodedText">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="24dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Insert New Data"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update Data"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete Existing Data"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View Data"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

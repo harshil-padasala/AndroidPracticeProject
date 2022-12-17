@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_details"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_size_35" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextField"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_32"
+        android:layout_marginTop="@dimen/dim_6"
+        android:layout_marginEnd="@dimen/dim_32"
+        android:hint="@string/enter_contact_name">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextField"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_32"
+        android:layout_marginTop="@dimen/dim_6"
+        android:layout_marginEnd="@dimen/dim_32"
+        android:hint="@string/enter_contact_number"
+        tools:ignore="DuplicateIds">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edtContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_32"
+        android:layout_marginTop="@dimen/dim_6"
+        android:layout_marginEnd="@dimen/dim_32"
+        android:text="@string/submit" />
+
+</LinearLayout>

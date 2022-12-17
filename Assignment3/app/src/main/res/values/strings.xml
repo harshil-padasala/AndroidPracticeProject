@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="reminder">Reminder Name</string>
+    <string name="done">Done</string>
+    <string name="course_code">Course Code</string>
+    <string name="course_type">Course Type</string>
+    <string name="credit">Credit</string>
+    <string name="grade">Grade</string>
+    <string name="theory">THEORY</string>
+    <string name="practical">PRACTICAL</string>
+    <string name="result">RESULT</string>
+</resources>

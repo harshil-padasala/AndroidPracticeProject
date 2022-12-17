@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_grid1"
+        android:text="Student Form"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editFirstname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/firstname"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editLastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/lastname"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/show_selected_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Selected Date is : "
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <android.widget.Button
+                android:id="@+id/pick_date_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_layout"
+                android:padding="8dp"
+                android:text="Select Birth Date"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_height="50dp"
+                android:layout_width="match_parent" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit12thPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/HSC_Percentage"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit10thPercentage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/SSC_Percentage"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editSeatNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/seat_number"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_baseline_person_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/address"
+                    android:inputType="text">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <android.widget.Button
+                android:id="@+id/calculate_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_layout"
+                android:padding="8dp"
+                android:text="Calculate Result"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

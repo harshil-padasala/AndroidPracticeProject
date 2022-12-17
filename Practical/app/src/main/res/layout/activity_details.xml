@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity"
+    tools:ignore="HardcodedText">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Username"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="ID"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="State"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Country"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

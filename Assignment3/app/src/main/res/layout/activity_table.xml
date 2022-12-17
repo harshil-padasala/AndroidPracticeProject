@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".TableActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue_light"
+        android:text="@string/result"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <TableRow
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/course_code"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/course_type"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/credit"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/grade"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE245"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/theory"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="3.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AB"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE245"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/practical"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="1.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AA"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE246"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/theory"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="4.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CC"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE246"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/practical"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="2.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AA"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE255"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/practical"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="2.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AA"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE258"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/theory"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="4.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AA"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE258"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/practical"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="1.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AA"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE259"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/practical"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="1.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AA"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="CE282.01"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/practical"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="2.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AA"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+    <TableRow tools:ignore="UselessParent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="HS111.02A"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="@string/practical"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="2.00"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:text="AB"
+            android:textColor="@color/blue_light"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+    </TableRow>
+
+</TableLayout>

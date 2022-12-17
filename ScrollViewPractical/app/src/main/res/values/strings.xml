@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ScrollViewPractical</string>
+    <string name="company_name">Adobe Illustrator</string>
+    <string name="contact_number">+91 1234567890</string>
+    <string name="company_mail">demand@mail.adobe.com</string>
+    <string name="company_address">402, Ansal Chamber,\nBhikaji Cama Place, Delhi</string>
+    <string name="company_logo">company_logo</string>
+    <string name="company_description">"Learn about Adobe Illustrator, the industry-standard vector graphics app that lets you create logos, icons, drawings, typography, and complex illustrations for any medium. Development of Adobe Illustrator for the Apple Macintosh began in 1985[2] (shipping in January 1987) as a commercialization of Adobe's in-house font development software and PostScript file format. Adobe Illustrator is the companion product of Adobe Photoshop. Photoshop is primarily geared toward digital photo manipulation and photorealistic styles of computer illustration, while Illustrator provides results in the typesetting and logo graphic areas of design. Early magazine advertisements (featured in graphic design trade magazines such as Communication Arts) referred to the product as "the Adobe Illustrator". Illustrator 88, the product name for version 1.7,[3] was released in 1988 and introduced many new tools and features. "</string>
+    <string name="hyperlink_company"><a href="http://surl.li/cjygu">Visit Our Site</a></string>
+</resources>

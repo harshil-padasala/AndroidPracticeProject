@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Assignment5</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="pick_time">Pick time</string>
+</resources>

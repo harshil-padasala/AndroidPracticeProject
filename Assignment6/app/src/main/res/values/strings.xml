@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Assignment6</string>
+    <string name="student_form">Student Form</string>
+    <string name="first_name">First Name</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last Name</string>
+    <string name="HSC_Percentage">12th Percentage</string>
+    <string name="SSC_Percentage">10th Percentage</string>
+    <string name="seat_number">Seat number</string>
+    <string name="address">Address</string>
+    <string name="science">Science</string>
+    <string name="maths">Maths</string>
+    <string name="social_science">Social Science</string>
+    <string name="gujarati">Gujarati</string>
+    <string name="english">English</string>
+    <string name="computer">Computer</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="physics">Physics</string>
+</resources>

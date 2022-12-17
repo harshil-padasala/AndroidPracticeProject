@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="enter_contact_number">Enter contact Number</string>
+    <string name="enter_contact_name">Enter Contact Name</string>
+    <string name="submit">Submit</string>
+    <string name="update_details">Update Details</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:text="@string/txtHeading"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100sp"
+        android:columnCount="3"
+        android:rowCount="3"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginStart="10dp"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginStart="10dp"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginStart="10dp"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginStart="10dp"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginStart="10dp"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginStart="10dp"
+            android:onClick="check"
+            tools:ignore="UsingOnClickInXml" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="restart"
+        android:text="@string/btnRestart"
+        android:textSize="20sp"
+        tools:ignore="UsingOnClickInXml" />
+
+
+</LinearLayout>

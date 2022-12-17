@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practical8</string>
+    <string name="email_to">To:</string>
+    <string name="email_express">Email Express</string>
+    <string name="email_subject">Subject:</string>
+    <string name="email_message">Message:</string>
+    <string name="send_email">Send Email</string>
+</resources>

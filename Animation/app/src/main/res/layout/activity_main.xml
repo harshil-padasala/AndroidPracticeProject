@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:theme="@style/Theme.Animation"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350sp"
+            android:layout_height="700sp"
+            android:elevation="11sp"
+            app:cardCornerRadius="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hello World!"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btnMove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="80sp"
+                android:ems="8"
+                android:text="@string/translate"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnScale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="80sp"
+                android:ems="8"
+                android:text="@string/scale"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnRotate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_marginLeft="20sp"
+                android:layout_marginBottom="30sp"
+                android:ems="8"
+                android:text="@string/rotate"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/btnAlpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginRight="20sp"
+                android:layout_marginBottom="30sp"
+                android:ems="8"
+                android:text="@string/alpha"
+                tools:ignore="RtlHardcoded" />
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/options_new1"
+        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:title="Logout"
+        app:showAsAction="collapseActionView"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/options_new2"
+        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:title="Logout"
+        app:showAsAction="collapseActionView"
+        tools:ignore="HardcodedText" />
+
+
+    <item
+        android:id="@+id/options_new3"
+        android:icon="@drawable/ic_baseline_fiber_new_24"
+        android:title="Logout"
+        app:showAsAction="collapseActionView"
+        tools:ignore="HardcodedText" />
+</menu>

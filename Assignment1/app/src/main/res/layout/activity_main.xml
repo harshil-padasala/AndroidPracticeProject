@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/company_logo"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/ai" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/company_name"
+        android:textColor="@color/orange"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/call"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/email"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/location"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/contact_number"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/company_mail"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:text="@string/company_address"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hyperlink_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/hyperlink_company"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/company_description"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="9:00 PM to 7:00 PM, \nSaturday, sunday off."
+        android:textColor="#1F4690"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
