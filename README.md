@@ -1,2 +1,2 @@
 # AndroidPracticeProject
-This repo has my all practice project of Android.
+Practice projects for learning Android Application Development.
